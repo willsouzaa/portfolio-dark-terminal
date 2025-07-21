@@ -20,7 +20,16 @@ const projects: Project[] = [
     tags: ['JavaScript', 'Bootstrap', 'CSS3'],
     repo: 'https://github.com/willsouzaa/Site-Rancho-BelleVue',
     demo: 'https://ranchobellevue.com.br',
-    screenshot: '/images/projeto1.png', // ✅ Coloque a imagem em public/screenshots/
+    screenshot: '/images/projeto1.png',
+  },
+  {
+    id: 'secure-dockerfile',
+    title: 'Barbearia Medeiros',
+    description: 'Site desenvolvido com React, CSS3 e React Router, focando em navegação fluida, experiência responsiva e arquitetura de componentes reutilizáveis. Integra a Google Maps API para exibição da localização, e possui estrutura modular otimizada para desempenho, escalabilidade e organização do código.',
+    tags: ['React', 'CSS', 'React Router', 'Google Maps API'],
+    repo: 'https://github.com/willsouzaa/Medeiros-Barbearia.git',
+    demo: 'https://barbeariamedeiros.com.br/',
+    screenshot: '/images/projeto2.jpg',
   },
   // Adicione outros projetos aqui
 ];

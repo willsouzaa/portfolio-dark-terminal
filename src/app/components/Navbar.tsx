@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/">Home</Link>
             <Link href="/certificados">Certificados</Link>
             <Link href="/projects">Projetos</Link>
-            <Link href="/about">Sobre</Link>
+            <Link href="/tools">*Ferramentas Open Source*</Link>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ export default function Navbar() {
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link href="/certificados" onClick={() => setIsOpen(false)}>Certificados</Link>
           <Link href="/projects" onClick={() => setIsOpen(false)}>Projetos</Link>
-          <Link href="/about" onClick={() => setIsOpen(false)}>Sobre</Link>
+          <Link href="/tools" onClick={() => setIsOpen(false)}>*Ferramentas Open Source*</Link>
         </div>
       )}
     </nav>
